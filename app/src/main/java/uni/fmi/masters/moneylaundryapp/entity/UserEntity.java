@@ -7,7 +7,7 @@ public class UserEntity {
     private String email;
     private String fullName;
     private String avatarPath;
-    
+
     public UserEntity(){ }
 
     public UserEntity(String username, String password, String email, String fullName) {
