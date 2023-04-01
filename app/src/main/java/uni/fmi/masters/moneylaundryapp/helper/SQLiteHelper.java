@@ -86,7 +86,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         cv.put(COLUMN_AVATAR, user.getAvatarPath());
         cv.put(COLUMN_USERNAME, user.getUsername());
         cv.put(COLUMN_PASSWORD, user.getPassword());
-        cv.put(COLUMN_EMAIL, user.getEmail());
+        cv.put(COLUMN_EMAIL, user.getGender());
         cv.put(COLUMN_NAME, user.getFullName());
 
         if(db.insert("users",null,cv) != -1)

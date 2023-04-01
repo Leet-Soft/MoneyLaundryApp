@@ -1,19 +1,21 @@
 package uni.fmi.masters.moneylaundryapp.entity;
 
-public class UserEntity {
+import java.io.Serializable;
+
+public class UserEntity implements Serializable {
     private int id;
     private String username;
     private String password;
-    private String email;
+    private String gender;
     private String fullName;
     private String avatarPath;
-
+    private String validator;
     public UserEntity(){ }
 
-    public UserEntity(String username, String password, String email, String fullName) {
+    public UserEntity(String username, String password, String gender, String fullName) {
         this.username = username;
         this.password = password;
-        this.email = email;
+        this.gender = gender;
         this.fullName = fullName;
     }
 
@@ -41,12 +43,12 @@ public class UserEntity {
         this.password = password;
     }
 
-    public String getEmail() {
-        return email;
+    public String getGender() {
+        return gender;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getFullName() {
@@ -64,4 +66,13 @@ public class UserEntity {
     public void setAvatarPath(String avatarPath) {
         this.avatarPath = avatarPath;
     }
+
+    public String getValidator() {
+        return validator;
+    }
+
+    public void setValidator(String validator) {
+        this.validator = validator;
+    }
+
 }
