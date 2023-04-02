@@ -45,8 +45,13 @@ public class LoginActivity extends AppCompatActivity {
 //        UserEntity user = db.login(usernameET.getText().toString(),
 //                passwordET.getText().toString());
 
-        new LoginAsyncTask(usernameET.getText().toString(),
-                passwordET.getText().toString()).execute();
+        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+        startActivity(intent);
+
+
+
+       // new LoginAsyncTask(usernameET.getText().toString(),
+              //  passwordET.getText().toString()).execute();
 
 //        counter++;
 //
