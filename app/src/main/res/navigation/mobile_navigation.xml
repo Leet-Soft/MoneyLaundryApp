@@ -22,4 +22,11 @@
         android:name="uni.fmi.masters.moneylaundryapp.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_leaderboard"
+        android:name="uni.fmi.masters.moneylaundryapp.ui.LeaderboardFragment"
+        android:label="@string/menu_leaderboard"
+        tools:layout="@layout/fragment_leaderboard" />
+
 </navigation>
