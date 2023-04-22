@@ -16,5 +16,10 @@
         android:name="uni.fmi.masters.moneylaundryapp.ui.LeaderboardFragment"
         android:label="@string/menu_leaderboard"
         tools:layout="@layout/fragment_leaderboard" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="uni.fmi.masters.moneylaundryapp.ui.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
 
 </navigation>

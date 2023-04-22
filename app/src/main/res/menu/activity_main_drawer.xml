@@ -12,5 +12,9 @@
             android:id="@+id/nav_leaderboard"
             android:icon="@android:drawable/ic_menu_myplaces"
             android:title="@string/menu_leaderboard" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/account" />
     </group>
 </menu>
